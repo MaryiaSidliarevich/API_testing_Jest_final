@@ -1,5 +1,5 @@
 import superagent from "superagent";
-import {unexcitingPostURL} from "../requestUrls/urls";
+import {unexcitingPostURL} from "../requestValues/requestUrls";
 import * as expectedStatusCode from "../expectedValues/expectedStatusCodes";
 import * as expectedStatusText from "../expectedValues/expectedStatusTexts";
 import {Resp} from "../interfaces/interfaces";

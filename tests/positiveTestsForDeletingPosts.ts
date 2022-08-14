@@ -1,7 +1,7 @@
 import superagent, {Response} from "superagent";
 import * as expectedStatusCode from "../expectedValues/expectedStatusCodes";
 import * as expectedStatusText from "../expectedValues/expectedStatusTexts";
-import {firstPostURL} from "../requestUrls/urls";
+import {firstPostURL} from "../requestValues/requestUrls";
 
 describe('positive tests for deleting the first post', (): void => {
     let testResponse: {[key: string]: any};

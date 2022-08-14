@@ -1,7 +1,7 @@
 import superagent, {Response} from "superagent";
-import {header} from "../requestHeaders/headers";
-import {createdPost} from "../requestBodies/bodies";
-import {firstPostURL} from "../requestUrls/urls";
+import {header} from "../requestValues/requestHeaders";
+import {createdPost} from "../requestValues/requestBodies";
+import {firstPostURL} from "../requestValues/requestUrls";
 import * as expectedStatusCode from "../expectedValues/expectedStatusCodes";
 import * as expectedStatusText from "../expectedValues/expectedStatusTexts";
 

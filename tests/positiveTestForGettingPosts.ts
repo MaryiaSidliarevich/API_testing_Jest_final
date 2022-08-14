@@ -2,7 +2,7 @@ import superagent, {Response} from "superagent";
 import * as expectedStatusCode from "../expectedValues/expectedStatusCodes";
 import * as expectedStatusText from "../expectedValues/expectedStatusTexts";
 import * as expectedValues from "../expectedValues/expectedValues";
-import * as urls from "../requestUrls/urls";
+import * as urls from "../requestValues/requestUrls";
 import * as expectedObjects from "../expectedValues/expectedObjects";
 
 describe('positive tests for getting list of post', (): void => {
