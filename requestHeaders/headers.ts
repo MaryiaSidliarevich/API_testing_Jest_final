@@ -1,0 +1,1 @@
+export const header: object = {'Content-type': 'application/json'}

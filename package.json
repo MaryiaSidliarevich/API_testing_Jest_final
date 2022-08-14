@@ -1,0 +1,21 @@
+{
+  "name": "api_testing_final",
+  "version": "1.0.0",
+  "description": "API_testing_framework",
+  "main": "index.js",
+  "scripts": {
+    "test:jest": "jest"
+  },
+  "author": "Maryia Sidliarevich",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.5",
+    "@types/superagent": "^4.1.15",
+    "jest": "^28.1.3",
+    "superagent": "^8.0.0",
+    "ts-jest": "^28.0.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}

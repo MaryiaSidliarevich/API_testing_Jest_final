@@ -1,0 +1,1 @@
+export const firstPostId: number = 1;
